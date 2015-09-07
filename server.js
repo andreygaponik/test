@@ -9,7 +9,7 @@ function start() {
   }
 
   http.createServer(onRequest).listen(8888);
-  console.log("Server has started 2.");
+  console.log("Server has started, hello.");
 }
 
 exports.start = start;
